@@ -1,0 +1,38 @@
+﻿.locate-location-arrow {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none'%3E%3Cpath fill='%23000' fill-opacity='.85' d='M3.32 14.11L7.72 1.8a.3.3 0 01.56 0l4.4 12.32a.3.3 0 01-.45.35l-4.06-2.84a.3.3 0 00-.34 0l-4.06 2.84a.3.3 0 01-.45-.35z'/%3E%3C/svg%3E");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height: 26px;
+    min-width: 26px;
+    transform: rotate(45deg);
+    background-position: center;
+}
+
+.gis-spin {
+    -webkit-animation: gis-spin 0.7s infinite linear;
+    animation: gis-spin 0.7s infinite linear;
+}
+
+@-webkit-keyframes gis-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes gis-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
